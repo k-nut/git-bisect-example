@@ -3,5 +3,5 @@ const sum = sumArray(args);
 console.log(sum);
 
 function sumArray(array){
-	return array.reduce((value, current) => current+value, 0)
+  return array.reduce((value, current) => current+value, 0)
 }
