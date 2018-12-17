@@ -1,1 +1,3 @@
-console.log(parseInt(process.argv[2]) + parseInt(process.argv[3]))
+const first = parseInt(process.argv[2]);
+const second = parseInt(process.argv[3]);
+console.log(first+second);
