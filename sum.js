@@ -1,6 +1,5 @@
-const first = parseInt(process.argv[2]);
-const second = parseInt(process.argv[3]);
-const sum = sumArray([first, second]);
+const args = process.argv.slice(2);
+const sum = sumArray(args);
 console.log(sum);
 
 function sumArray(array){
