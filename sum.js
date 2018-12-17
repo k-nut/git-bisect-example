@@ -1,7 +1,6 @@
 const args = process.argv.slice(2);
-const sum = sumArray(args);
-console.log(sum);
+console.log(sum(args));
 
-function sumArray(array){
+function sum(array){
   return array.reduce((value, current) => current+value, 0)
 }
